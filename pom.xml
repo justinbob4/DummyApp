@@ -38,9 +38,7 @@
   </dependencies>
   
   <build>
-  	<finalName>${project.getArtifactId}</finalName>
-  	
-    <resources>
+  	<resources>
 		<resource>
 			<directory></directory>
 			<includes>
@@ -61,7 +59,7 @@
                     </goals>
                     <phase>install</phase>
                     <configuration>
-                        <file>${project.build.finalName}.${project.packaging}</file>
+                        <file>${project.build.finalName}</file>
                         <generatePom>false</generatePom>
                         <pomFile>pom.xml</pomFile>
                         <version>${my.version}</version>
