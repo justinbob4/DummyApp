@@ -38,7 +38,7 @@
   </dependencies>
   
   <build>
-    <finalName>${project.file.parentFile.name}</finalName>
+    <finalName>{project.getArtifactId}</finalName>
     <resources>
 		<resource>
 			<directory></directory>
