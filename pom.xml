@@ -4,7 +4,7 @@
 
   <groupId>me.stuntguy3000.dummyapp</groupId>
   <artifactId>DummyApp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <name>DummyApp</name>
   <url>http://maven.apache.org</url>
