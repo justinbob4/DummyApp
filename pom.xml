@@ -38,6 +38,8 @@
   </dependencies>
   
   <build>
+  <finalName>${project.build.finalName}</finalName>
+  
   	<resources>
 		<resource>
 			<directory></directory>
