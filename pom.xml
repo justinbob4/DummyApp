@@ -5,7 +5,6 @@
   <groupId>me.stuntguy3000.dummyapp</groupId>
   <artifactId>DummyApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
   <name>DummyApp</name>
   <url>http://maven.apache.org</url>
@@ -37,18 +36,4 @@
       <version>RELEASE</version>
     </dependency>
   </dependencies>
-  
-  <build>
-	<plugins>
-	  <plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-compiler-plugin</artifactId>
-		<version>2.3.2</version>
-		<configuration>
-			<source>${jdk.version}</source>
-			<target>${jdk.version}</target>
-		</configuration>
-	  </plugin>
-	</plugins>
-	</build>
 </project>
